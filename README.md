@@ -21,8 +21,8 @@ This is a simple web application for rating ramen dishes. It allows users to vie
 
 ramen-rating-app/
 > index.html
+>style.css
 > index.js
-> style.css
 > README.md
 > images
   .shoyu.jpg

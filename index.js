@@ -6,7 +6,7 @@ const ramens = [
 ];
 function displayRamens() {
     const ramenMenu = document.getElementById("ramen-menu");
-    ramenMenu.innerHTML = ''; // Clears previous images
+    ramenMenu.innerHTML = ''; 
     ramens.forEach(ramen => {
         const img = document.createElement("img");
         img.src = ramen.image;

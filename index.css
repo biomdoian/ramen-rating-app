@@ -1,47 +1,69 @@
+
 body {
-    background-color: black;
+    background-color: darkolivegreen;
     color: lightblue;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display:flex ;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 #ramen-menu {
-    display: flex; /* Used flexbox to arrange images */
-    flex-wrap: wrap; /* Allows images to wrap to the next line */
-    justify-content: center; /* Center images horizontally */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%;
+    gap: 10px; 
 }
 
 #ramen-menu img {
-    max-width: 30px; /* Adjust size  */
-    margin: 10px;
-    border: 2px solid blue;
-    border-radius: 5px;
+    width: 330px  !important;
+    height: 330px  !important;
+    object-fit: cover;
 }
 
 #ramen-detail {
-    border: 2px solid blue;
+    border: 2px solid #D6CFE1;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    width: 50%;
+    text-align: center;
 }
 
 #new-ramen-form {
-    border: 2px solid blue;
+    border: 2px solid #D6CFE1;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    width: 300px;
+    text-align: center;
 }
 
 #new-ramen-form input, #new-ramen-form textarea, #new-ramen-form button {
-    background-color: #222;
-    color: lightblue;
-    border: 1px solid blue;
+    background-color: palegoldenrod;
+    color: #D6CFE1;
+    border: 2px solid #D6CFE1;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
+    display: block;
+    width: 80%;
+    text-align: center;
 }
 
 #new-ramen-form button {
   background-color: blue;
-  color: white;
+  color: #D6CFE1;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#new-ramen-form button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
 }
