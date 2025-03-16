@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: lightblue;
+    font-family: sans-serif;
+}
+
+#ramen-menu {
+    display: flex; /* Used flexbox to arrange images */
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+    justify-content: center; /* Center images horizontally */
+}
+
+#ramen-menu img {
+    max-width: 200px; /* Adjust size  */
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#ramen-detail {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#new-ramen-form {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#new-ramen-form input, #new-ramen-form textarea, #new-ramen-form button {
+    background-color: #222;
+    color: lightblue;
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#new-ramen-form button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
