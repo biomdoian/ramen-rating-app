@@ -11,7 +11,7 @@ body {
 }
 
 #ramen-menu img {
-    max-width: 200px; /* Adjust size  */
+    max-width: 30px; /* Adjust size  */
     margin: 10px;
     border: 2px solid blue;
     border-radius: 5px;
